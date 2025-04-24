@@ -1,7 +1,53 @@
 /* remove default browser spacing*/
-* {
-  margin: 0px;
-  padding: 0px;
+*body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f4f0; /* light nude */
+  color: #5c3d2e; /* dark brown nude */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e7d4c0; /* nude */
+  padding: 20px;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 200px;
+  border-radius: 50% / 60%; /* oval shape */
+  border: 3px solid #d6bfa8;
+  margin-bottom: 10px;
+}
+
+.projects,
+.skills {
+  background-color: #f3e5d7;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+hr {
+  border: 1px solid #d6bfa8;
+  margin: 30px auto;
+  width: 80%;
+}
+
+footer {
+  background-color: #e7d4c0;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
 }
 
 /*title text style*/
